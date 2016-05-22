@@ -1,4 +1,4 @@
-package eu.jmsanchez.designpattern.singleton;
+package eu.jmsanchez.designpattern.creational.signleton;
 
 /**
  *

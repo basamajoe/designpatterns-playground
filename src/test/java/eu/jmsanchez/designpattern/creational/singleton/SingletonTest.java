@@ -1,6 +1,7 @@
 
-package eu.jmsanchez.designpattern.singleton;
+package eu.jmsanchez.designpattern.creational.singleton;
 
+import eu.jmsanchez.designpattern.creational.signleton.SingleObject;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -16,9 +17,10 @@ public class SingletonTest {
     @Test
     public void checkSingleton() {
 
-        //illegal construct
+        //ILLEGAL construct
         //Compile Time Error: The constructor SingleObject() is not visible
         //SingleObject object = new SingleObject();
+        
         //Get the only object available
         SingleObject object = SingleObject.getInstance();
 
