@@ -2,6 +2,7 @@
 package eu.jmsanchez.designpattern.creational.singleton;
 
 import eu.jmsanchez.designpattern.creational.signleton.SingleObject;
+import javax.annotation.PostConstruct;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -25,5 +26,6 @@ public class SingletonTest {
         SingleObject object = SingleObject.getInstance();
 
         assertEquals(object, SingleObject.getInstance());
+        assertTrue(object == SingleObject.getInstance());
     }
 }
