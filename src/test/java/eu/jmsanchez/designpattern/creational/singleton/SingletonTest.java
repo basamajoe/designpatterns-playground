@@ -1,8 +1,6 @@
 
 package eu.jmsanchez.designpattern.creational.singleton;
 
-import eu.jmsanchez.designpattern.creational.signleton.SingleObject;
-import javax.annotation.PostConstruct;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
